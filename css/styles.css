@@ -134,6 +134,7 @@ main {
   .navbar:hover {
     width: 16rem;
   }
+
   .navbar:hover .link-text {
     display: inline;
     transition: opacity var(--transition-speed);
