@@ -23,12 +23,14 @@ body::-webkit-scrollbar-thumb {
 main {
   margin-left: 5rem;
   padding: 1rem;
+  z-index: 2;
 }
 
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 500ms ease;
+  z-index: 1;
 }
 .navbar-nav {
   list-style: none;
