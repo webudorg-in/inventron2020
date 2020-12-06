@@ -1,0 +1,217 @@
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css */
+.far,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fa-bowling-ball:before {
+  content: "\f436";
+}
+.fa-handshake:before {
+  content: "\f2b5";
+}
+.fa-headset:before {
+  content: "\f590";
+}
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+.fa-question:before {
+  content: "\f128";
+}
+.far {
+  font-weight: 400;
+}
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+.fas {
+  font-weight: 900;
+}
+/*! CSS Used from: https://dscwow.tech/static/css/2.1a02f21c.chunk.css */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+nav {
+  display: block;
+}
+ul {
+  margin-bottom: 1rem;
+}
+ul {
+  margin-top: 0;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+img {
+  border-style: none;
+}
+img {
+  vertical-align: middle;
+}
+@media print {
+  *,
+  :after,
+  :before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+  img {
+    page-break-inside: avoid;
+  }
+}
+/*! CSS Used from: https://dscwow.tech/static/css/main.5eccd9fd.chunk.css */
+* {
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+}
+.sidebar__wrapper {
+  background: var(--bg-secondary);
+  width: var(--sidebar-width);
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  transition: var(--transition-speed);
+  list-style: none;
+  box-shadow: -10px 0 17.5px #252525;
+  z-index: 5;
+}
+.sidebar__nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  outline: none;
+  position: relative;
+}
+.sidebar__item,
+.sidebar__item__link {
+  width: 100%;
+  text-decoration: none;
+}
+.sidebar__item__link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-secondary);
+  -webkit-filter: grayscale(100%) opacity(0.7);
+  filter: grayscale(100%) opacity(0.7);
+  transition: var(--transition-speed);
+}
+.sidebar__item__link:hover {
+  -webkit-filter: grayscale(0) opacity(1);
+  filter: grayscale(0) opacity(1);
+  background: var(--focused-state);
+  color: var(--btn-primary);
+  text-decoration: none;
+}
+.sidebar__item__link i {
+  font-size: 1.5rem;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+.sidebar__text {
+  display: none;
+}
+.sidebar__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: var(--transition-speed);
+}
+.sidebar__logo .sidebar__item__link {
+  -webkit-filter: grayscale(0) opacity(1) !important;
+  filter: grayscale(0) opacity(1) !important;
+}
+.sidebar__logo__img {
+  animation: fa-spin 3s linear infinite;
+  width: 70%;
+  margin: auto;
+  transition: var(--transition-speed);
+}
+.sidebar__logo:hover .sidebar__logo__img {
+  animation: fa-spin 4s linear infinite;
+  transition: var(--transition-speed);
+}
+@media only screen and (max-width: 600px) {
+  .sidebar__wrapper {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.5rem;
+    flex-direction: row;
+    width: 100vw;
+    box-shadow: 0 10px 20px #252525;
+  }
+  .sidebar__item__link {
+    height: 3.5rem;
+  }
+  .sidebar__item__link i {
+    font-size: 1.25rem;
+  }
+  .sidebar__logo {
+    display: none;
+  }
+  .sidebar__nav {
+    flex-direction: row;
+  }
+  .sidebar__item:nth-child(2) {
+    display: none;
+  }
+  .sidebar__item__link i {
+    margin: auto;
+  }
+}
+* {
+  font-family: roboto, sans-serif;
+  box-sizing: border-box;
+}
+/*! CSS Used keyframes */
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+/*! CSS Used fontfaces */
+
+/* dsc-css */
