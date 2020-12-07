@@ -88,7 +88,7 @@ img {
 .sidebar__wrapper {
   background: var(--bg-secondary);
   width: var(--sidebar-width);
-  height: 100vh;
+  height: 100%;
   position: fixed;
   overflow: hidden;
   transition: var(--transition-speed);
@@ -158,6 +158,7 @@ img {
   animation: fa-spin 4s linear infinite;
   transition: var(--transition-speed);
 }
+
 @media only screen and (max-width: 600px) {
   .sidebar__wrapper {
     bottom: 0;
