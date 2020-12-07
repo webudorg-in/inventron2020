@@ -158,13 +158,13 @@ img {
   animation: fa-spin 4s linear infinite;
   transition: var(--transition-speed);
 }
-
-@media only screen and (max-width: 600px) {
+/* 600_unde */
+@media only screen and (max-width: 1000px) {
   .sidebar__wrapper {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 3.5rem;
+    height: 8.5rem;
     flex-direction: row;
     width: 100vw;
     box-shadow: 0 10px 20px #252525;
@@ -173,7 +173,7 @@ img {
     height: 3.5rem;
   }
   .sidebar__item__link i {
-    font-size: 1.25rem;
+    font-size: 3.25rem;
   }
   .sidebar__logo {
     display: none;
