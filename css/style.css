@@ -181,9 +181,9 @@ img {
   .sidebar__nav {
     flex-direction: row;
   }
-  .sidebar__item:nth-child(2) {
+  /* .sidebar__item:nth-child(2) {
     display: none;
-  }
+  } */
   .sidebar__item__link i {
     margin: auto;
   }
