@@ -15,7 +15,7 @@
     <!--Nav bar-->
     <nav class="sidebar__wrapper">
       <ul class="sidebar__nav">
-        <li class="sidebar__item sidebar__logo">
+        <li class="sidebar__item sidebar__logo" onmouseover="slidec('home')">
           <a href="#landing-section" class="sidebar__item__link"
             ><img
               src="assests/Images/WEBUD pngcircle.png"
@@ -23,7 +23,7 @@
               class="sidebar__logo__img" /></a
           ><span class="sidebar__text">Home</span>
         </li>
-        <li class="sidebar__item">
+        <li class="sidebar__item" onmouseover="slidec('themes')">
           <a href="#landing-section" class="sidebar__item__link"
             ><i class="fas fa-bowling-ball"></i></a
           ><span class="sidebar__text">About</span>
@@ -53,7 +53,7 @@
     <!--Nav bar-->
     <!--Inventron Main Screen / Home page-->
     <main class="main-con">
-      <section id="themes" class="themes page-section dark-mode">
+      <section id="home" class="themes page-section dark-mode">
         <h2 class="section-title">Inventron</h2>
         <div class="container">
           <p>
@@ -241,5 +241,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      function slidec(home) {
+        var travi = home;
+        window.location.href = "#" + travi;
+      }
+    </script>
   </body>
 </html>
