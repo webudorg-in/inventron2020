@@ -162,10 +162,10 @@ footer {
   background: #8c8c8c;
   color: white;
 }
-.foot{
+.foot {
   color: white;
 }
-.foot:hover{
+.foot:hover {
   color: white;
 }
 @-webkit-keyframes fa-spin {
@@ -192,6 +192,11 @@ footer {
 .box-container {
   padding: 85px;
   background-image: url(https://cdn.techhq.com/wp-content/uploads/2020/02/shutterstock_692043769-861x484.jpg);
+}
+@media (max-width: 1000px) {
+  .box-container {
+    margin-left: -200px;
+  }
 }
 .blurred-box {
   position: relative;
