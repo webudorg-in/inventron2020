@@ -158,7 +158,7 @@ img {
 }
 footer {
   padding: 30px 15px 20px 0px;
-  position: auto;
+  position: relative;
   background: #8c8c8c;
   color: white;
 }
