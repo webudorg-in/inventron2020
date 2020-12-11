@@ -390,6 +390,11 @@ span.Filter_label {
 }
 .row.catBox1 {
   padding: 10px 0 20px 0;
+  display: inline-block;
+}
+.row.catBox1 h5 {
+  text-transform: uppercase;
+  font-size: 15px;
 }
 .dataTables_filter {
   float: right;
