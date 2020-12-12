@@ -441,6 +441,20 @@ table#dataTablePS td img {
   size: 20px;
 }
 
+.headlogo{
+  height: auto;
+  width: 100px;
+  padding-right: 60px;
+}
+
+.fa-map-marker-alt{
+  padding-right: 5px;
+}
+
+.fa-calendar-alt{
+  padding-right: 5px;
+}
+
 /*! CSS Used from: https://www.sih.gov.in/css/responsive.css */
 @media only screen and (max-device-width: 568px) {
   .row.catBox1 {

@@ -1,29 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/font-awesome/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap-social/bootstrap-social.css"
-    />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/events.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/4dc0251910.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <!--Nav bar-->
@@ -65,15 +46,9 @@
       </ul>
     </nav>
     <!--Nav bar-->
-    <!--Main-Block-->
     <main style="background-color: var(--secondary)" class="main-con">
       <div class="box-container">
         <div class="blurred-box">
-          <!--  you dont need the user-login-box html  -->
-          <!--  for demo purposes only and its shit  -->
-          <!-- <div class="user-login-box">
-          <input class="user-password" type="text" />
-        </div> -->
           <div class="tetbox">
             <h1 class="tetbotet">Agriculture</h1>
             <p>
@@ -102,7 +77,6 @@
 
         <div class="container wrapper">
           <div
-            id="dataTablePS_wrapper"
             class="dataTables_wrapper dt-bootstrap4"
           >
             <div class="row">
@@ -150,87 +124,65 @@
                       <td>6</td>
                     </tr>
                   </tbody>
-                  <!-- <tfoot>
-                    <tr>
-                      <th class="sortingBottom" rowspan="1" colspan="1">
-                        Organization
-                      </th>
-                      <th class="sortingBottom" rowspan="1" colspan="1">
-                        Problem Statement Title
-                      </th>
-                      <th class="sortingBottom" rowspan="1" colspan="1">
-                        Category
-                      </th>
-                      <th class="sortingBottom" rowspan="1" colspan="1">
-                        PS Number
-                      </th>
-                      <th class="sortingBottom" rowspan="1" colspan="1">
-                        Submitted Idea(s) Count
-                      </th>
-                    </tr>
-                  </tfoot> -->
                 </table>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <!-- Modal-->
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                 <img class="navbar-brand" src=""/>
-                <h6 class="modal-title">
-                  Problem Statement Details
-                </h6>
-                <button type="button" class="close" data-dismiss="modal">
-                  <a class="fa fa-close"></a>
-                </button>
-              </div>
-              <div class="modal-body">
-                <table id="settings" class="table table-bordered table-hover">
-                  <thead>
-                    <tr>
-                      <th style="vertical-align: top">
-                        Description
-                      </th>
-                      <td>
-                        <div class="style-2">
-                          1. At present, Adani operates more
-                          than 45 Berths PAN India and
-                          approximately 4000 Vessels calling at
-                          our Port. 2. The vessel agents share
-                          the ETA by which Port Authorities
-                          manage the resource and estimates the
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Organization</th>
-                      <td>Adani Port and SEZ Ltd</td>
-                    </tr>
-                    <tr>
-                      <th>Category</th>
-                      <td>Software</td>
-                    </tr>
-                    <tr>
-                      <th>Domain Bucket</th>
-                      <td>Software - Web App development</td>
-                    </tr>
-                    <tr>
-                      <th>Youtube Link</th>
-                      <td>
-                      <a href=" " target="_blank"> </a>
-                      </td>
-                    </tr>
-                  </thead>
-                </table>
-              </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+               <img class="navbar-brand" src=""/>
+              <h6 class="modal-title" id="exampleModalLabel">
+                Problem Statement Details
+              </h6>
+              <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table id="settings" class="table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th style="vertical-align: top">
+                      Description
+                    </th>
+                    <td>
+                      <div class="style-2">
+                        1. At present, Adani operates more
+                        than 45 Berths PAN India and
+                        approximately 4000 Vessels calling at
+                        our Port. 2. The vessel agents share
+                        the ETA by which Port Authorities
+                        manage the resource and estimates the
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Organization</th>
+                    <td>Adani Port and SEZ Ltd</td>
+                  </tr>
+                  <tr>
+                    <th>Category</th>
+                    <td>Software</td>
+                  </tr>
+                  <tr>
+                    <th>Domain Bucket</th>
+                    <td>Software - Web App development</td>
+                  </tr>
+                  <tr>
+                    <th>Youtube Link</th>
+                    <td>
+                    <a href=" " target="_blank"> </a>
+                    </td>
+                  </tr>
+                </thead>
+              </table>
             </div>
           </div>
         </div>
+      </div>
       </section>
       <!--Footer-->
       <footer>
