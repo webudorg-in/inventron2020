@@ -192,6 +192,7 @@ footer {
 .box-container {
   padding: 85px;
   background-image: url(https://cdn.techhq.com/wp-content/uploads/2020/02/shutterstock_692043769-861x484.jpg);
+  align-content: center;
 }
 @media (max-width: 1000px) {
   .box-container {
@@ -388,13 +389,18 @@ span.Filter_label {
   top: 2px;
   left: 44px;
 }
-.row.catBox1 {
-  padding: 10px 0 20px 0;
+.catBox1 {
+  padding-left: 20px;
+  padding-right: 15px;
   display: inline-block;
-}
-.row.catBox1 h5 {
   text-transform: uppercase;
   font-size: 15px;
+  color: #000000;
+}
+.catBox1:hover{
+  color: rgb(51, 51, 51);
+  stroke: black;
+  stroke-width: 3px;
 }
 .dataTables_filter {
   float: right;
