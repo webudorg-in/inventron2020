@@ -1,4 +1,4 @@
 function slidec(home) {
-    var travi = home;
-    window.location.href = "#" + travi;
-  }
+  var travi = home;
+  window.location.href = "#" + travi;
+}

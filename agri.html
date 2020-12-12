@@ -29,8 +29,8 @@
     <!--Nav bar-->
     <nav class="sidebar__wrapper">
       <ul class="sidebar__nav">
-        <li class="sidebar__item sidebar__logo" onmouseover="slidec('home')">
-          <a href="#landing-section" class="sidebar__item__link"
+        <li class="sidebar__item sidebar__logo">
+          <a href="./index.html" class="sidebar__item__link"
             ><img
               src="assests/Images/WEBUD pngcircle.png"
               alt="Inventron"
@@ -141,144 +141,11 @@
                             cursor: pointer;
                           "
                           data-toggle="modal"
-                          data-target="#ViewProblemStatement320"
+                          data-target="#exampleModal"
                           >To Predict the Optimum Vessel Turnaround Time</a
                         >
-                        <div
-                          id="ViewProblemStatement320"
-                          class="modal fade"
-                          role="dialog"
-                        >
-                          <div class="modal-dialog">
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <img
-                                  class="navbar-brand"
-                                  style="height: 45px"
-                                  src="https://www.sih.gov.in/img/logo.png"
-                                />
-                                <button
-                                  type="button"
-                                  class="close"
-                                  data-dismiss="modal"
-                                >
-                                  ×
-                                </button>
-                                <h6
-                                  class="modal-title"
-                                  style="
-                                    text-align: center;
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                    margin: 23px;
-                                    padding-right: 88px;
-                                  "
-                                >
-                                  Problem Statement Details
-                                </h6>
-                              </div>
-                              <div class="modal-body">
-                                <table
-                                  id="settings"
-                                  class="table table-bordered table-hover"
-                                >
-                                  <thead>
-                                    <tr>
-                                      <th style="vertical-align: top">
-                                        Description
-                                      </th>
-                                      <td>
-                                        <div
-                                          class="style-2"
-                                          style="
-                                            overflow-y: auto;
-                                            min-height: 20px;
-                                            max-height: 200px;
-                                          "
-                                        >
-                                          1. At present, Adani operates more
-                                          than 45 Berths PAN India and
-                                          approximately 4000 Vessels calling at
-                                          our Port. 2. The vessel agents share
-                                          the ETA by which Port Authorities
-                                          manage the resource and estimates the
-                                          TAT. 3. Vessel TAT are dependent on
-                                          various Factors like the productivity,
-                                          resource allocated, Tide etc. 4. The
-                                          solution should be such that the Port
-                                          Authorities are able to effectively
-                                          predict the Optimum TAT which yields
-                                          maximum revenue by clearly optimizing
-                                          the resources used. Relooking at the
-                                          problem: 1. Can out Current Terminal
-                                          Operating system (TOS) predict using
-                                          the available data points? 2. Do we
-                                          require an analytical engine to run
-                                          algorithms? 3. Will Live Dashboard
-                                          help to control &amp; monitor the
-                                          Vessel Operation? 4. Say our current
-                                          prediction is 70% accurate we would
-                                          definitely want to increase the
-                                          prediction accuracy by 10%. 5. Can ML
-                                          be implemented such that the same
-                                          vessel calling at our port month after
-                                          month the prediction is actually very
-                                          accurate? 6. All vessel related
-                                          information, resources &amp; Tariff
-                                          for maximum revenue will be provided.
-                                          Connections to our DB and Data
-                                          warehouse access are possible. If we
-                                          look at the entire process: 1. Vessel
-                                          agent submits the ETA 2. Port
-                                          Authority does the berth and resource
-                                          planning. 3. Operations are
-                                          undertaken. 4. Changes in Planned TAT.
-                                          5. Revision in TAT 6. Other Vessels
-                                          incoming are affected by such changes
-                                          in TAT. 7. New TAT Prediction for
-                                          other incoming vessels.
-                                        </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr>
-                                      <th>Organization</th>
-                                      <td>Adani Port and SEZ Ltd</td>
-                                    </tr>
-
-                                    <tr>
-                                      <th>Category</th>
-                                      <td>Software</td>
-                                    </tr>
-
-                                    <tr>
-                                      <th>Domain Bucket</th>
-                                      <td>Software - Web App development</td>
-                                    </tr>
-                                    <tr>
-                                      <th>Youtube Link</th>
-                                      <td>
-                                        <a href=" " target="_blank"> </a>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <th>Dataset Link</th>
-                                      <td>
-                                        <a
-                                          href="https://www.sih.gov.in/uploads/psData/SmartIndiaHackathonOptimumVesselTAT20191130144015.pdf"
-                                          >SmartIndiaHackathonOptimumVesselTAT20191130144015.pdf<br
-                                        /></a>
-                                      </td>
-                                    </tr>
-                                  </thead>
-                                </table>
-                              </div>
-                            </div>
-                          </div>
                         </div>
                       </td>
-
                       <td>SM320</td>
                       <td>6</td>
                     </tr>
@@ -308,15 +175,63 @@
           </div>
         </div>
       </section>
-
-      <!--FAQ'S-->
-      <section></section>
-      <!--FAQ'S-->
-
-      <!--Contact Form-->
-      <section></section>
-      <!--Contact Form-->
-
+      <section>
+        <!-- Modal-->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                 <img class="navbar-brand" src=""/>
+                <h6 class="modal-title">
+                  Problem Statement Details
+                </h6>
+                <button type="button" class="close" data-dismiss="modal">
+                  <a class="fa fa-close"></a>
+                </button>
+              </div>
+              <div class="modal-body">
+                <table id="settings" class="table table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th style="vertical-align: top">
+                        Description
+                      </th>
+                      <td>
+                        <div class="style-2">
+                          1. At present, Adani operates more
+                          than 45 Berths PAN India and
+                          approximately 4000 Vessels calling at
+                          our Port. 2. The vessel agents share
+                          the ETA by which Port Authorities
+                          manage the resource and estimates the
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Organization</th>
+                      <td>Adani Port and SEZ Ltd</td>
+                    </tr>
+                    <tr>
+                      <th>Category</th>
+                      <td>Software</td>
+                    </tr>
+                    <tr>
+                      <th>Domain Bucket</th>
+                      <td>Software - Web App development</td>
+                    </tr>
+                    <tr>
+                      <th>Youtube Link</th>
+                      <td>
+                      <a href=" " target="_blank"> </a>
+                      </td>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--Footer-->
       <footer>
         <div class="row">
