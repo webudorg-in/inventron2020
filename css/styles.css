@@ -445,6 +445,7 @@ table#dataTablePS td img {
   height: auto;
   width: 100px;
   padding-right: 60px;
+  position: relative;
 }
 
 .fa-map-marker-alt {
