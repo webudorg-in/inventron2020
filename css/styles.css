@@ -455,6 +455,75 @@ table#dataTablePS td img {
   padding-right: 5px;
 }
 
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+table td {
+  padding: 1rem;
+  border: 5px solid black; 
+}
+table tr:first-child td {
+  border-top: 0;
+}
+table tr td:first-child {
+  border-left: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+.icons {
+  font-size: 25px;
+  display: inline;
+  margin-top: 15px;
+}
+
+#clockdiv { 
+  display: inline-block; 
+  font-weight: 100; 
+  text-align: left; 
+  font-size: 30px; 
+} 
+*#clockdiv > div { 
+  padding: 5px; 
+  border-radius: 5px;
+  display: inline-block; 
+} 
+#clockdiv div > span { 
+  padding: 30px; 
+  border-radius: 5px; 
+  background:black; 
+  color:white;
+  display: inline-block; 
+} 
+.counter {
+  font-size: 20px;
+  margin-right: 30%;
+}
+.abc
+{
+  padding: 2rem;
+}
+
+.btn-primary {
+  width: 200px;
+}
+
+.reg-button {
+  padding-top: 25px;
+}
+
+.title1 {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 /*! CSS Used from: https://www.sih.gov.in/css/responsive.css */
 @media only screen and (max-device-width: 568px) {
   .row.catBox1 {
@@ -930,7 +999,7 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
+  transition: 0.
   background-color: rgba(93, 133, 193, 0.05);
   border-radius: 50%;
   margin-right: 10px;
@@ -951,3 +1020,4 @@ section {
 h1 {
   font-size: 2.5rem;
 }
+   
