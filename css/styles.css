@@ -526,6 +526,10 @@ table tr td:last-child {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.modal-header > .close {
+  margin: 4px;
+}
 /*! CSS Used from: https://www.sih.gov.in/css/responsive.css */
 @media only screen and (max-device-width: 568px) {
   .row.catBox1 {
