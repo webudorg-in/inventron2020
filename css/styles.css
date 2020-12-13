@@ -72,7 +72,7 @@ img {
   outline: none;
   position: relative;
 }
-.sidebar__item ,
+.sidebar__item,
 .sidebar__item__link {
   width: 100%;
   text-decoration: none;
@@ -386,7 +386,7 @@ span.Filter_label {
 .dataTables_filter {
   float: right;
 }
-.table-bordered th ,
+.table-bordered th,
 .table-bordered td {
   border: 1px solid #c1c6cc;
 }
@@ -464,7 +464,7 @@ table {
 }
 table td {
   padding: 1rem;
-  border: 5px solid black; 
+  border: 5px solid black;
 }
 table tr:first-child td {
   border-top: 0;
@@ -485,30 +485,29 @@ table tr td:last-child {
   margin-top: 15px;
 }
 
-#clockdiv { 
-  display: inline-block; 
-  font-weight: 100; 
-  text-align: left; 
-  font-size: 30px; 
-} 
-*#clockdiv > div { 
-  padding: 5px; 
+#clockdiv {
+  display: inline-block;
+  font-weight: 100;
+  text-align: left;
+  font-size: 30px;
+}
+#clockdiv div {
+  padding: 5px;
   border-radius: 5px;
-  display: inline-block; 
-} 
-#clockdiv div > span { 
-  padding: 30px; 
-  border-radius: 5px; 
-  background:black; 
-  color:white;
-  display: inline-block; 
-} 
+  display: inline-block;
+}
+#clockdiv div span {
+  padding: 30px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  display: inline-block;
+}
 .counter {
   font-size: 20px;
   margin-right: 40px;
 }
-.abc
-{
+.abc {
   padding: 2rem;
 }
 
@@ -620,16 +619,16 @@ table.dataTable {
   border-collapse: separate;
   border-spacing: 0;
 }
-table.dataTable thead th ,
+table.dataTable thead th,
 table.dataTable tfoot th {
   font-weight: bold;
 }
-table.dataTable thead th ,
+table.dataTable thead th,
 table.dataTable thead td {
   padding: 10px 18px;
   border-bottom: 1px solid #111;
 }
-table.dataTable thead th:active ,
+table.dataTable thead th:active,
 table.dataTable thead td:active {
   outline: none;
 }
@@ -653,12 +652,12 @@ table.dataTable thead .sorting_asc {
 table.dataTable tbody tr {
   background-color: #ffffff;
 }
-table.dataTable tbody th ,
+table.dataTable tbody th,
 table.dataTable tbody td {
   padding: 8px 10px;
 }
-table.dataTable ,
-table.dataTable th ,
+table.dataTable,
+table.dataTable th,
 table.dataTable td {
   box-sizing: content-box;
 }
@@ -756,9 +755,9 @@ h2 {
   margin-right: -15px;
   margin-left: -15px;
 }
-.col-lg-3 ,
-.col-md-6 ,
-.col-md-9 ,
+.col-lg-3,
+.col-md-6,
+.col-md-9,
 .col-md-10 {
   position: relative;
   width: 100%;
@@ -886,7 +885,7 @@ section {
   height: 50px;
   bottom: 10px;
 }
-.card-fullname ,
+.card-fullname,
 .card-jobtitle {
   left: 86px;
   transform: none;
@@ -933,7 +932,7 @@ section {
   object-fit: cover;
   transform: translateX(-50%) translateY(-64px);
 }
-.card-avatar ,
+.card-avatar,
 .card-fullname {
   position: absolute;
   bottom: 0;
@@ -984,7 +983,7 @@ section {
 .card-social {
   position: center;
   align-content: center;
-  padding:20px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
   margin-bottom: 30px;
 }
 .card-social svg {
@@ -1021,4 +1020,3 @@ section {
 h1 {
   font-size: 2.5rem;
 }
-   
