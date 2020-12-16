@@ -1060,3 +1060,123 @@ canvas {
   padding-bottom: 190px;
   margin: 0;
 }
+
+/* sponsers */
+/*! CSS Used from: https://dscwow.tech/static/css/2.1a02f21c.chunk.css */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+img {
+  border-style: none;
+}
+img {
+  vertical-align: middle;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-4,
+.col-md-10 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-md-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+@media print {
+  *,
+  :after,
+  :before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+  img {
+    page-break-inside: avoid;
+  }
+}
+/*! CSS Used from: https://dscwow.tech/static/css/main.5eccd9fd.chunk.css */
+* {
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+}
+* {
+  font-family: roboto, sans-serif;
+  box-sizing: border-box;
+}
+.sponsor-tier-title {
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 1.25rem 0;
+  color: var(--text-tertiary);
+}
+.sponsors {
+  display: flex;
+  margin: 10px 20px;
+}
+.sponsor-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.6rem;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.185), 0 1px 5px 0 rgba(0, 0, 0, 0.05);
+  transition: 0.2s;
+}
+.sponsor-img-wrapper:hover {
+  box-shadow: 0 1px 5px 0 rgba(20, 19, 19, 0.212),
+    0 1px 5px 0 rgba(20, 19, 19, 0.212);
+  transform: scale(1.05);
+}
+@media screen and (min-width: 1080px) {
+  .sponsor-img-wrapper {
+    width: 25% !important;
+    flex: 0 0 30%;
+    margin: 0.3rem 0.5rem;
+  }
+}
+.sponsor-img {
+  padding: 0.5rem;
+  margin: auto;
+  width: 80%;
+  max-width: 320px;
+  height: auto;
+  text-decoration: none;
+}
+.home {
+  height: 100vh;
+}
