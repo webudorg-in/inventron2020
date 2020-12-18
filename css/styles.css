@@ -1180,3 +1180,12 @@ img {
 .home {
   height: 100vh;
 }
+.themes,
+.gallary,
+.schedule,
+.patners,
+.footer,
+.team {
+  z-index: 1;
+  position: relative;
+}
