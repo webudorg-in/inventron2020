@@ -1,8 +1,6 @@
 <?php
 require('functions.php');
 
-
-
     $email=get_safe_value($_POST['email']);
     $subject=get_safe_value($_POST['subject']);
     $name=get_safe_value($_POST['name']);
