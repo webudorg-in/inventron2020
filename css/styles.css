@@ -113,13 +113,12 @@ img {
   filter: grayscale(0) opacity(1) !important;
 }
 .sidebar__logo__img {
-  animation: fa-spin 3s linear infinite;
+  padding-top: 20px;
   width: 70%;
   margin: auto;
   transition: var(--transition-speed);
 }
 .sidebar__logo:hover .sidebar__logo__img {
-  animation: fa-spin 4s linear infinite;
   transition: var(--transition-speed);
 }
 /* 600_unde */
@@ -145,6 +144,11 @@ img {
   .sidebar__nav {
     flex-direction: row;
   }
+  .social-icons{
+    height: 5rem;
+    width: 5rem;
+    color: black;
+  }
   /* .sidebar__item:nth-child(2) {
     display: none;
   } */
@@ -168,25 +172,12 @@ footer {
 .foot:hover {
   color: white;
 }
-@-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
+.contact{
+  align: center;
 }
-@keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
+
+.contact > tr{
+  padding: 10px 10px 10px 10px;
 }
 /* glass-agri */
 .box-container {
