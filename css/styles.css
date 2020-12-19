@@ -50,7 +50,7 @@ img {
   display: block;
 }
 .sidebar__wrapper {
-  background: #8c8c8c;
+  background: white;
   width: var(--sidebar-width);
   height: 100%;
   position: fixed;
@@ -81,7 +81,7 @@ img {
   display: flex;
   align-items: center;
   height: 5rem;
-  color: #c7c3c7;
+  color: rgb(48, 48, 48);
   -webkit-filter: grayscale(100%) opacity(0.7);
   filter: grayscale(100%) opacity(0.7);
   transition: var(--transition-speed);
@@ -90,7 +90,7 @@ img {
   -webkit-filter: grayscale(0) opacity(1);
   filter: grayscale(0) opacity(1);
   background: var(--focused-state);
-  color: white;
+  color: black ;
   text-decoration: none;
 }
 .sidebar__item__link i {
