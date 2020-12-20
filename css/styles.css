@@ -1684,7 +1684,7 @@ button:hover {
   display: none;
 }
 .contact100-form {
-  width: 100%;
+  width: 50%%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1705,14 +1705,14 @@ button:hover {
   padding-bottom: 44px;
 }
 .wrap-input100 {
-  width: 100%;
+  width: 50%;
   position: relative;
   border-bottom: 2px solid #d9d9d9;
   padding-bottom: 13px;
   margin-bottom: 65px;
 }
 .rs1-wrap-input100 {
-  width: calc((100% - 30px) / 2);
+  /* width: calc((100% - 30px) / 2); */
 }
 .label-input100 {
   font-family: Poppins-Regular;
@@ -1830,7 +1830,7 @@ textarea.input100 {
 }
 @media (max-width: 768px) {
   .rs1-wrap-input100 {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 @media (max-width: 576px) {
