@@ -1697,6 +1697,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 68px;
+  margin-left: 15%;
 }
 .contact100-form-title {
   display: block;
@@ -1709,7 +1710,7 @@ button:hover {
   padding-bottom: 44px;
 }
 .wrap-input100 {
-  width: 50%;
+  width: 48%;
   position: relative;
   border-bottom: 2px solid #d9d9d9;
   padding-bottom: 13px;
