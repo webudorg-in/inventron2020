@@ -1298,7 +1298,7 @@ img {
   }
 }
 .grid-item {
-  float: left;
+  float: right;
 }
 .grid-item img {
   display: block;
@@ -1676,6 +1676,8 @@ button:hover {
   cursor: pointer;
 }
 .wrap-contact100 {
+  margin-left: 20%;
+  text-align: center;
   width: 1170px;
   background: #fff;
   border-radius: 10px;
@@ -1684,7 +1686,9 @@ button:hover {
   display: none;
 }
 .contact100-form {
-  width: 50%;
+  align-items: inherit;
+  align-items: right;
+  width: 70%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1698,10 +1702,10 @@ button:hover {
   display: block;
   width: 100%;
   font-family: Poppins-Bold;
-  font-size: 39px;
+  font-size: 40px;
   color: #333;
   line-height: 1.2;
-  text-align: left;
+  text-align: center;
   padding-bottom: 44px;
 }
 .wrap-input100 {
@@ -1710,6 +1714,14 @@ button:hover {
   border-bottom: 2px solid #d9d9d9;
   padding-bottom: 13px;
   margin-bottom: 65px;
+}
+.wrap-input100txt{
+width: 100%;
+height: 100px;
+position: relative;
+border-bottom: 2px solid  #d9d9d9;
+padding-bottom: 13px;
+margin-bottom: 50px;
 }
 .rs1-wrap-input100 {
   /* width: calc((100% - 30px) / 2); */
@@ -1720,8 +1732,19 @@ button:hover {
   color: #999;
   line-height: 1.5;
   padding-left: 5px;
+  text-align: left;
 }
 .input100 {
+  display: block;
+  width: 100%;
+  background: 0 0;
+  font-family: Poppins-SemiBold;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+.input100txt{
   display: block;
   width: 100%;
   background: 0 0;
@@ -1752,7 +1775,7 @@ button:hover {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-  background: #ff4b5a;
+  background: #000000;
 }
 input.input100 {
   height: 40px;
@@ -1786,7 +1809,7 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 160px;
   height: 50px;
-  background-color: #ff4b5a;
+  background-color: #000000;
   border-radius: 25px;
   font-family: Poppins-Medium;
   font-size: 16px;
@@ -1796,11 +1819,11 @@ textarea.input100 {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-  box-shadow: 0 10px 30px 0 rgba(255, 75, 90, 0.5);
-  -moz-box-shadow: 0 10px 30px 0 rgba(255, 75, 90, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0 rgba(255, 75, 90, 0.5);
-  -o-box-shadow: 0 10px 30px 0 rgba(255, 75, 90, 0.5);
-  -ms-box-shadow: 0 10px 30px 0 rgba(255, 75, 90, 0.5);
+  box-shadow: 0 10px 30px 0 rgba(143, 143, 143, 0.5);
+  -moz-box-shadow: 0 10px 30px 0 rgba(143, 143, 143, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(143, 143, 143, 0.5);
+  -o-box-shadow: 0 10px 30px 0 rgba(143, 143, 143, 0.5);
+  -ms-box-shadow: 0 10px 30px 0 rgba(143, 143, 143, 0.5);
 }
 .contact100-form-btn i {
   -webkit-transition: all 0.4s;
