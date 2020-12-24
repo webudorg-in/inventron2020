@@ -433,9 +433,10 @@ table#dataTablePS td img {
 }
 
 .headlogo {
-  margin: 5px;
+  margin: 10px;
+  padding-top: 20px;
   height: auto;
-  width: 100px;
+  width: 150px;
   position: center;
 }
 
@@ -2271,4 +2272,36 @@ section {
   font-size: var(--row-content-text-size, medium);
   padding: var(--row-content-padding-top, 0) var(--row-content-padding-right, 0)
     var(--row-content-padding-bottom, 0) var(--row-content-padding-left, 0);
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  color: #000000;
+}
+
+.follow{
+  color: #000000;
+}
+
+.Down {
+  align-content: center;
+  padding-bottom: 25px;
+  margin-left: 40%;
+}
+
+.Down2{
+  padding: 20px 10px 10px 10px;
+  margin-left: 40%;
 }
