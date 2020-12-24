@@ -130,6 +130,13 @@ h2 {
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
 }
+.section-title2 {
+  margin: 50px 0;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
+}
 main .page-section {
   /* padding: 60px 0; */
   background-color: #fff;
