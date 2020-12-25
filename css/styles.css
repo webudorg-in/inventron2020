@@ -366,7 +366,7 @@ span.Filter_label {
   padding-bottom: 20px;
   display: inline-block;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
 }
 .catBox1:hover {
@@ -380,8 +380,13 @@ span.Filter_label {
   padding-bottom: 20px;
   display: inline-block;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   color: #007bff;
+}
+.catBox2:hover {
+  color: rgb(0, 0, 0);
+  stroke: black;
+  stroke-width: 3px;
 }
 .dataTables_filter {
   float: right;
