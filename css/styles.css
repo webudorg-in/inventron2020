@@ -1842,7 +1842,7 @@ button:hover {
 }
 .wrap-contact100 {
   /* margin-left: 20%; */
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
   background: #fff;
   border-radius: 10px;
@@ -1894,11 +1894,12 @@ button:hover {
 }
 .label-input100 {
   font-family: Poppins-Regular;
-  font-size: 15px;
-  color: #999;
+  font-size: 16px;
+  color: #2c3e50;
   line-height: 1.5;
   padding-left: 5px;
   text-align: left;
+  text-transform: uppercase;
 }
 .input100 {
   display: block;
@@ -1928,6 +1929,9 @@ button:hover {
   top: 0;
   left: 0;
   pointer-events: none;
+}
+.input100::placeholder {
+  margin-top: 20px;
 }
 .focus-input100::before {
   content: "";
@@ -2305,7 +2309,7 @@ section {
   color: #000000;
 }
 
-.follow{
+.follow {
   color: #000000;
 }
 
@@ -2315,7 +2319,7 @@ section {
   margin-left: 40%;
 }
 
-.Down2{
+.Down2 {
   padding: 20px 10px 10px 10px;
   margin-left: 40%;
 }
